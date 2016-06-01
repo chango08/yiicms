@@ -1,0 +1,68 @@
+2015-02-13 16:24:47 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "php".' in C:\xampp\htdocs\edunqn\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 C:\xampp\htdocs\edunqn\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('php', Array)
+#1 C:\xampp\htdocs\edunqn\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('php', Array)
+#2 C:\xampp\htdocs\edunqn\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\xampp\htdocs\edunqn\yii(31): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "php".' in C:\xampp\htdocs\edunqn\vendor\yiisoft\yii2\console\Application.php:163
+Stack trace:
+#0 C:\xampp\htdocs\edunqn\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('php', Array)
+#1 C:\xampp\htdocs\edunqn\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\xampp\htdocs\edunqn\yii(31): yii\base\Application->run()
+#3 {main}
+2015-02-13 16:24:47 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\cgomez\\AppData\\Roaming'
+    'CI_HOLOS_CLI' => 'C:\\Program Files\\Seagate Software\\Open Olap\\'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LUCASMPB-EDUNEU'
+    'ComSpec' => 'C:\\windows\\system32\\cmd.exe'
+    'configsetroot' => 'C:\\windows\\ConfigSetRoot'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\cgomez'
+    'LOCALAPPDATA' => 'C:\\Users\\cgomez\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LUCASMPB-EDUNEU'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Python27\\;C:\\Python27\\Scripts;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files\\TortoiseGit\\bin;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseHg\\;C:\\Users\\cgomez\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.py;.pyw'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 23 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '170a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\windows'
+    'TEMP' => 'C:\\Users\\cgomez\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\cgomez\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'lucasmpb-eduneu'
+    'USERNAME' => 'cgomez'
+    'USERPROFILE' => 'C:\\Users\\cgomez'
+    'VS100COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 10.0\\Common7\\Tools\\'
+    'windir' => 'C:\\windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\edunqn\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\edunqn\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\edunqn\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\edunqn\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\edunqn\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1423841087.2244
+    'REQUEST_TIME' => 1423841087
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\edunqn\\yii'
+        1 => 'php'
+        2 => 'migrate'
+    ]
+    'argc' => 3
+]

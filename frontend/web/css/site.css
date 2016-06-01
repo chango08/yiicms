@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "Raleway";    
+    src: url(/psicomc/frontend/web/fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "Raleway-Thin";    
+    src: url(/psicomc/frontend/web/fonts/Raleway-Thin.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Merriweather";
+    src: url(/psicomc/frontend/web/fonts/Merriweather-Italic.otf);
+}
+html,
+body {
+    font-family: "Raleway";
+    height: 100%;
+}
+
+.modal-header {
+    border-bottom: 0px;
+    min-height: 16.4286px;
+    padding: 8px 8px 0px 8px;
+}
+.texto{
+    font-size: 16px;
+}
+
+.thumb{
+    margin-left: -18px;margin-top: 14px;height: 120px; width: 120px;
+    box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.29);
+}
+.thumbNoti{
+    margin-top: 15px;height: 135px; width: 235px;    
+    box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.29);
+}
+.thumbCat{
+    margin-left: -13px;margin-top: 14px;height: 170px; width: 170px;
+    box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.29);
+}
+.imagenArt{
+    margin-left: 0px;margin-top: 5px;width: 740px;
+}
+
+.btn-leer-cat {
+    border-radius: 2px;
+    bottom: 0;
+    font-size: 12px;
+    margin: 7px 25px -50px 7px;
+    padding: 3px 17px;
+    position: absolute;
+    right: 0;
+}
+
+.btn-leer {
+    bottom: 0;
+    font-size: 12px;
+    border-radius: 2px;
+    margin: 7px 25px -20px 7px;
+    padding: 3px 17px;
+    position: absolute;
+    right: 0;
+}
+.btn-leer-noti {
+    bottom: 0;
+    font-size: 12px;
+    border-radius: 2px;
+    margin: 7px -13px -25px 7px;
+    padding: 3px 17px;
+    position: absolute;
+    right: 0;
+}
+
+.margen-noti{
+    margin-right: -30px;
+}
+.btn-tag {
+    background-color: #96BF3D;
+    color: #fff;
+    border-radius: 2px;
+    padding: 3px 10px;
+    -webkit-transform: skew(-10deg); 
+    -moz-transform: skew(-10deg); 
+    -o-transform: skew(-10deg);
+}
+
+.vertical-center {
+    margin-top: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.btn-sm-tag, .btn-group-sm > .btn {
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 4px;
+    padding: 3px 10px;
+}
+
+.dropdown-menu {
+    margin-top: 77px;
+    background-clip: padding-box;
+    background-color:  rgba(255, 255, 255, 0.9);    
+    border-bottom: solid 4px #96bf3d;
+    border-radius: 2px;
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 0;
+    list-style: outside none none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    z-index: 1000;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+.justificar
+{
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bloqueNotas{
+    margin-right: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 35px;
+    border-bottom: 1px  dashed #CECECE;
+}
+
+.labelCategoria {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 2px 1px rgba(150, 150, 150, 0.73);
+    font-family: "Merriweather";
+    border-radius: 2px;
+    font-size: 75%;
+    line-height: 1;
+    padding: 0.2em 0.6em 0.3em;    
+    vertical-align: baseline;
+    white-space: nowrap;
+    -webkit-transform: skew(-10deg); 
+    -moz-transform: skew(-10deg); 
+    -o-transform: skew(-10deg);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.19);
+    -moz-box-shadow:    0px 1px 1px 0px rgba(50, 50, 50, 0.19);
+    box-shadow:         0px 1px 1px 0px rgba(50, 50, 50, 0.19);
+}
+
+.dropdown-menu > li > a {
+    clear: both;
+    color: #814994;
+    display: block;
+    font-weight: normal;
+    line-height: 1.42857;
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+
+.tituloBack {
+    font-family: "Merriweather";
+    border-bottom: solid 1px #96bf3d;
+    color: #96bf3d;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.3em;
+}
+.titNotaHorizontal {
+    color: #626262;
+    line-height: 1.2em;
+    margin-top: 0px;
+    margin-bottom: -6px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    
+}
+.titNotaHorizontal:hover{
+    margin-bottom: -6px;
+    color: #814994; 
+    text-decoration: none;
+    
+}
+
+.navbar {
+    border-style: solid;
+    border-bottom: solid 4px #96bf3d;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 27px;
+    padding-top: 27px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+    background-color: #dbebb6;    
+    text-decoration: none;
+}
+
+.nav > .active > a
+{
+    background-color: #c4df86;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    color: #814994;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #48145a;
+    text-decoration: none;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > 
+.active > a:hover, .pagination > .active > span:hover, .pagination > 
+.active > a:focus, .pagination > .active > span:focus {
+    background-color: #96bf3d;
+    border-color: #96bf3d;
+    color: #fff;
+    cursor: default;
+    z-index: 2;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #96bf3d;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+}
+
+.footer {
+    font-family: "Raleway-Thin";
+    height: 130px;
+    color: #fff;
+    background-color: #222;
+    border-top: 6px solid #333;
+    padding-top: 20px;
+}
+
+.afooter {
+    color: #96bf3d;
+    text-decoration: none;
+}
+
+.afooter:hover, afooter:focus {
+    color: #96bf3d;
+    text-decoration: underline;
+}
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+.wrap > .container {
+    padding: 20px 15px 20px;
+}
